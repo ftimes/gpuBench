@@ -1,0 +1,31 @@
+# Local reference checkouts
+/LemonBench/
+/LeGeekbench/
+
+# Test output and downloaded tools
+.gpuBench-workdir/
+v100check-reports/
+reports/
+gpuBench-report-*.txt
+test-log.log
+test-log.meta.json
+test-brief.md
+telemetry.csv
+telemetry.ndjson
+packages/
+tools/
+*.tar.gz
+*.deb
+*.rpm
+*.run
+
+# Local environment and caches
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+*.swp
+*.tmp
